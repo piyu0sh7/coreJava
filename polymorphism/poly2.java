@@ -39,6 +39,7 @@ class fighterPlane extends aeroPlane{
 }
 
 class airPort{
+    //polymorphism invoked through ref(reference)
   public void poly(aeroPlane ref){
     ref.takeOff();
     ref.fly();
