@@ -1,4 +1,5 @@
-package polymorhism;
+package polymorphism;
+
 class human{
     String name;
     int age;
@@ -19,7 +20,10 @@ class jobPerson extends human{
     }
 }
 
+
 public class polymor {
+
+//dynamic Polymorphism
     public static void main(String[] args) {
         student s1=new student();
         jobPerson j1=new jobPerson();
@@ -33,4 +37,10 @@ public class polymor {
 
     }
     
+
+ 
+  
+    
 }
+
+
