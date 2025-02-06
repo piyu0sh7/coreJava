@@ -17,7 +17,7 @@ public class demo4 {
         //bw.flush();
 
       //  FileReader fr=new FileReader(file);
-
+        //Printwriter helps to add boolean  , int and more datatype in a file unlike the File writer and Buffer Writter
         PrintWriter pw=new PrintWriter(file);
         pw.println(100);
         pw.println(true);
