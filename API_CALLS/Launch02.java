@@ -4,7 +4,7 @@ public class Launch02 {
 
     public static void main(String[] args) {
      LocalDate localDate=LocalDate.now();
-     System.out.println(localDate);   
+    // System.out.println(localDate);   
      int date=localDate.getDayOfMonth();
      int month=localDate.getMonthValue();
      int year=localDate.getYear();
@@ -12,7 +12,7 @@ public class Launch02 {
      System.out.println(date+"/"+month+"/"+year);
 
      LocalTime localTime=LocalTime.now();
-     System.out.println(localTime);
+   //  System.out.println(localTime);
      int hour=localTime.getHour();
      int minute=localTime.getMinute();
      int second= localTime.getSecond();
